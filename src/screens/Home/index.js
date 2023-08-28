@@ -7,6 +7,7 @@ const Home = () => {
     <FlatList
       data={restaurants}
       renderItem={({ item }) => <RestaurantItem restaurant={item} />}
+      showsVerticalScrollIndicator={false}
     />
   );
 };
